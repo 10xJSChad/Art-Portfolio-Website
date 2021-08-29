@@ -58,7 +58,7 @@ p{
     filter:saturate(0.5);
     transition: 0.45s;
     opacity: 0;
-    animation: fadeIn 0s;
+    animation: fadeIn 8.5s;
     animation-fill-mode: forwards;
 }
 

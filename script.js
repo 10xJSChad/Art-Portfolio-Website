@@ -6,7 +6,7 @@ function initialize(){
     var intro_container = document.getElementById("intro-container");
     setTimeout(function() {
         intro_container.parentNode.removeChild(intro_container);
-   }, 1); //6200 and 8.5s
+   }, 6200); //6200 and 8.5s
 
    const swiper = new Swiper('.swiper', {
     slidesPerView: 3,
