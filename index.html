@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>  
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div id="intro-container">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="assets/background_video.mp4" type="video/mp4">
+        </video>
+        <div class="signatureBox">
+            <img id="signatureImg" src="assets/signature.png">
+        </div>
+    </div>
+
+    <div id="main-container">
+        <div class="categoryBox" style="background-image: url('assets/horn.png');">
+            <a class="cover-link" href="#wood-container"></a>
+        </div>
+        <div class="categoryBox" style="background-image: url('assets/rock.jpg');">
+            <a class="cover-link" href="#rock-container"></a>
+        </div>
+        <div class="categoryBox" style="background-image: url('assets/soap.jpeg');">
+            
+        </div>
+        <div class="categoryBox" style="background-image: url('assets/wool.jpg');">
+            
+        </div>
+    </div>
+    
+    <div class="category-container" id="wood-container" style="background-image: url('assets/wood/wood_background.jpg');">
+        <div class="category-topbar">
+            <a href="#main-container">
+                <img class="topbar-icon" src="assets/icons/expand_less.svg">
+            </a>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p class="entry-title">Horn thingy</p>
+                    <img class="entry-image" src="assets/horn.png">
+                    <p class="entry-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at enim diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas accumsan tortor quis turpis ullamcorper vulputate. Vivamus eu odio non risus dictum euismod. Cras faucibus suscipit arcu, eget dictum nisi pretium sed.</p>
+                </div>
+                <div class="swiper-slide">
+                    <p class="entry-title">Horn thingy</p>
+                    <img class="entry-image" src="assets/wool.jpg">
+                    <p class="entry-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at enim diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas accumsan tortor quis turpis ullamcorper vulputate. Vivamus eu odio non risus dictum euismod. Cras faucibus suscipit arcu, eget dictum nisi pretium sed.</p>
+                </div>
+                <div class="swiper-slide">
+                    <p class="entry-title">Horn thingy</p>
+                    <img class="entry-image" src="assets/soap.jpeg">
+                    <p class="entry-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at enim diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas accumsan tortor quis turpis ullamcorper vulputate. Vivamus eu odio non risus dictum euismod. Cras faucibus suscipit arcu, eget dictum nisi pretium sed.</p>
+                </div>
+                <div class="swiper-slide">
+                    <p class="entry-title">Horn thingy</p>
+                    <img class="entry-image" src="assets/rock.jpg">
+                    <p class="entry-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at enim diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas accumsan tortor quis turpis ullamcorper vulputate. Vivamus eu odio non risus dictum euismod. Cras faucibus suscipit arcu, eget dictum nisi pretium sed.</p>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    
+</body>
